@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Classic White Shirt",
+    "price": 49.99,
+    "category": "Men",
+    "image": "https://images.pexels.com/photos/297933/pexels-photo-297933.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 2,
+    "name": "Slim Fit Jeans",
+    "price": 79.99,
+    "category": "Men",
+    "image": "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 3,
+    "name": "Elegant Black Dress",
+    "price": 89.99,
+    "category": "Women",
+    "image": "https://images.pexels.com/photos/1631181/pexels-photo-1631181.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 4,
+    "name": "Summer Floral Dress",
+    "price": 69.99,
+    "category": "Women",
+    "image": "https://images.pexels.com/photos/7679454/pexels-photo-7679454.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 5,
+    "name": "Leather Sneakers",
+    "price": 129.99,
+    "category": "Shoes",
+    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 6,
+    "name": "Running Shoes",
+    "price": 99.99,
+    "category": "Shoes",
+    "image": "https://images.pexels.com/photos/2529147/pexels-photo-2529147.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 7,
+    "name": "Designer Handbag",
+    "price": 149.99,
+    "category": "Accessories",
+    "image": "https://images.pexels.com/photos/2081199/pexels-photo-2081199.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 8,
+    "name": "Leather Wallet",
+    "price": 39.99,
+    "category": "Accessories",
+    "image": "https://images.pexels.com/photos/2080382/pexels-photo-2080382.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 9,
+    "name": "Denim Jacket",
+    "price": 119.99,
+    "category": "Men",
+    "image": "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 10,
+    "name": "Casual T-Shirt",
+    "price": 29.99,
+    "category": "Men",
+    "image": "https://images.pexels.com/photos/1336873/pexels-photo-1336873.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 11,
+    "name": "Knit Sweater",
+    "price": 59.99,
+    "category": "Women",
+    "image": "https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 12,
+    "name": "High Heels",
+    "price": 89.99,
+    "category": "Shoes",
+    "image": "https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 13,
+    "name": "Sunglasses",
+    "price": 79.99,
+    "category": "Accessories",
+    "image": "https://images.pexels.com/photos/701877/pexels-photo-701877.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 14,
+    "name": "Leather Belt",
+    "price": 34.99,
+    "category": "Accessories",
+    "image": "https://images.pexels.com/photos/1342609/pexels-photo-1342609.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 15,
+    "name": "Blazer Jacket",
+    "price": 159.99,
+    "category": "Women",
+    "image": "https://images.pexels.com/photos/7679482/pexels-photo-7679482.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 16,
+    "name": "Athletic Shorts",
+    "price": 44.99,
+    "category": "Men",
+    "image": "https://images.pexels.com/photos/1598508/pexels-photo-1598508.jpeg?auto=compress&cs=tinysrgb&w=400"
+  }
+]

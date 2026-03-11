@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - Fashion Store</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand">Fashion Store</div>
+        <div class="nav-links">
+          <a href="/" class="nav-link">Shop</a>
+          <a href="/login.html" class="nav-link">Login</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <div class="container">
+        <div class="checkout-container">
+          <h1>Checkout</h1>
+
+          <div class="checkout-grid">
+            <div class="checkout-form-section">
+              <div class="checkout-section">
+                <h2>Shipping Information</h2>
+                <form id="checkoutForm">
+                  <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input
+                      type="text"
+                      id="fullName"
+                      name="fullName"
+                      placeholder="John Doe"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="john@example.com"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="address">Street Address</label>
+                    <input
+                      type="text"
+                      id="address"
+                      name="address"
+                      placeholder="123 Main Street"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="city">City</label>
+                      <input
+                        type="text"
+                        id="city"
+                        name="city"
+                        placeholder="New York"
+                        required
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label for="zipCode">ZIP Code</label>
+                      <input
+                        type="text"
+                        id="zipCode"
+                        name="zipCode"
+                        placeholder="10001"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="(555) 123-4567"
+                      required
+                    />
+                  </div>
+                </form>
+              </div>
+
+              <div class="checkout-section">
+                <h2>Payment Method</h2>
+                <div class="payment-options">
+                  <label class="payment-option">
+                    <input type="radio" name="payment" value="credit-card" checked />
+                    <span>Credit Card</span>
+                  </label>
+                  <label class="payment-option">
+                    <input type="radio" name="payment" value="paypal" />
+                    <span>PayPal</span>
+                  </label>
+                  <label class="payment-option">
+                    <input type="radio" name="payment" value="cash" />
+                    <span>Cash on Delivery</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="order-summary-section">
+              <div class="order-summary">
+                <h2>Order Summary</h2>
+                <div class="order-items" id="orderItems"></div>
+                <div class="order-totals">
+                  <div class="order-row">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">$0.00</span>
+                  </div>
+                  <div class="order-row">
+                    <span>Shipping:</span>
+                    <span id="shipping">$10.00</span>
+                  </div>
+                  <div class="order-row">
+                    <span>Tax:</span>
+                    <span id="tax">$0.00</span>
+                  </div>
+                  <div class="order-row order-total">
+                    <span>Total:</span>
+                    <span id="finalTotal">$0.00</span>
+                  </div>
+                </div>
+                <button class="btn-primary" id="placeOrderBtn">Place Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="/checkout.js"></script>
+  </body>
+</html>
